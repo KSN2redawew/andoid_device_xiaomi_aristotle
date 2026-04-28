@@ -1,6 +1,0 @@
-prebuilt_etc {
-    name: "init.project.rc",
-    src: "init.project.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}

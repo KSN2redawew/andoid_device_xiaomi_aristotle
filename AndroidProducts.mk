@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_aristotle.mk
+    $(LOCAL_DIR)/lineage_aristotle.mk.mk

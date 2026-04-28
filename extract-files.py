@@ -17,12 +17,6 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
-namespace_imports = [
-    'hardware/mediatek',
-    'hardware/xiaomi',
-    'vendor/xiaomi/mt6895-common',
-]
-
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
 }
@@ -50,6 +44,12 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libprocessgroup_shim.so'),
 }  # fmt: skip
 
+namespace_imports = [
+    'hardware/mediatek',
+    'hardware/xiaomi',
+    'device/xiaomi/aristotle',
+]
+
 module = ExtractUtilsModule(
     'aristotle',
     'xiaomi',
@@ -60,7 +60,5 @@ module = ExtractUtilsModule(
 )
 
 if __name__ == '__main__':
-    utils = ExtractUtils.device_with_common(
-        module, 'mt6895-common', module.vendor
-    )
+    utils = ExtractUtils.device(module)
     utils.run()

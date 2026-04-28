@@ -1,4 +1,4 @@
-# Unpinned firmware from HyperOS OS2.0.213.0.VMFMIXM fastboot package
+# Unpinned firmware from HyperOS OS2.0.214.0.VMFMIXM fastboot package
 
 apusys.img;AB
 audio_dsp.img;AB
@@ -13,9 +13,17 @@ mcupm.img;AB
 md1img.img;AB
 mvpu_algo.img;AB
 pi_img.img;AB
-preloader_aristotle.bin:preloader_raw.img;AB|544f0a12fff598ed1866b695398d3b193b3ffc58
+preloader_aristotle.bin;AB
 scp.img;AB
+misc.img;AB
+oem_misc1.img;AB
+rescue.img;AB
 spmfw.img;AB
 sspm.img;AB
 tee.img;AB
 vcp.img;AB
+efuse.img;AB
+gsort.img;AB
+mcf_ota.img;AB
+mcupm.img;AB
+mvpu_algo.img;AB
