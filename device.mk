@@ -179,7 +179,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayAristotle \
-   PowerOffAlarmOverlayAristotle \
    SettingsResOverlayAristotle \
    SystemUIOverlayAristotle \
    TelephonyResOverlayAristotle \
@@ -363,8 +362,11 @@ PRODUCT_PACKAGES += \
     hostapd \
     wpa_supplicant
 
-PRODUCT_PACKAGES += \
-    NcmTetheringOverlay
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120,144
+TARGET_CUSTOM_UDFPS := true
+WITH_GMS := true
+WITH_BCR := true
+
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/aristotle/aristotle-vendor.mk)

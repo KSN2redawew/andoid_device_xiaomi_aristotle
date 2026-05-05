@@ -1,4 +1,4 @@
-# Unpinned blobs from aristotle-user 15 AP3A.240905.015.A2 OS2.0.214.0.VMFMIXM release-keys
+# Unpinned blobs from plato-user 15 AP3A.240905.015.A2 OS2.0.204.0.VLQMIXM release-keys
 
 # Audio
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
@@ -155,10 +155,6 @@ vendor/lib64/libminiui.so
 vendor/lib64/libmiStereoFactoryRemapBasicLib.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libmtkcam_3rdcalibration.so
-vendor/lib64/libmtkcam_fdWarpConvert.so
-vendor/lib64/libmtkcam_thirdparty.customzone.so
-vendor/lib64/libmtkisp_metadata_v2.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/librelight_only.so
@@ -218,7 +214,7 @@ vendor/lib64/mt6895/libcam.feature_utils.so;SYMLINK=vendor/lib64/libcam.feature_
 vendor/lib64/mt6895/libcam.fw_me_tcy.so;SYMLINK=vendor/lib64/libcam.fw_me_tcy.so
 vendor/lib64/mt6895/libcam.hal3a.afassitmgr.so;SYMLINK=vendor/lib64/libcam.hal3a.afassitmgr.so
 vendor/lib64/mt6895/libcam.hal3a.cctsvr.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.cctsvr.v4l2.so
-vendor/lib64/mt6895/libcam.hal3a.ctrl.so;SYMLINK=vendor/lib64/libcam.hal3a.ctrl.so
+vendor/lib64/mt6895/libcam.hal3a.ctrl.so;SYMLINK=vendor/lib64/libcam.hal3a.ctrl.so;DISABLE_CHECKELF
 vendor/lib64/mt6895/libcam.hal3a.ircutdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.ircutdrv.so
 vendor/lib64/mt6895/libcam.hal3a.lensdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.lensdrv.so
 vendor/lib64/mt6895/libcam.hal3a.log.so;SYMLINK=vendor/lib64/libcam.hal3a.log.so
@@ -226,7 +222,7 @@ vendor/lib64/mt6895/libcam.hal3a.lscMgrApi.so;SYMLINK=vendor/lib64/libcam.hal3a.
 vendor/lib64/mt6895/libcam.hal3a.oisdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.oisdrv.so
 vendor/lib64/mt6895/libcam.hal3a.ozoomdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.ozoomdrv.so
 vendor/lib64/mt6895/libcam.hal3a.policy.so;SYMLINK=vendor/lib64/libcam.hal3a.policy.so
-vendor/lib64/mt6895/libcam.hal3a.so;SYMLINK=vendor/lib64/libcam.hal3a.so
+vendor/lib64/mt6895/libcam.hal3a.so;SYMLINK=vendor/lib64/libcam.hal3a.so;DISABLE_CHECKELF
 vendor/lib64/mt6895/libcam.hal3a.tofdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.tofdrv.so
 vendor/lib64/mt6895/libcam.hal3a.utils.so;SYMLINK=vendor/lib64/libcam.hal3a.utils.so
 vendor/lib64/mt6895/libcam.hal3a.v3.ae.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.ae.v4l2.so
@@ -401,7 +397,7 @@ vendor/lib64/mt6895/libmtkcam_pipemgr.so;SYMLINK=vendor/lib64/libmtkcam_pipemgr.
 vendor/lib64/mt6895/libmtkcam_postprocprovider.so;SYMLINK=vendor/lib64/libmtkcam_postprocprovider.so
 vendor/lib64/mt6895/libmtkcam_prerelease.so;SYMLINK=vendor/lib64/libmtkcam_prerelease.so
 vendor/lib64/mt6895/libmtkcam_proc.so;SYMLINK=vendor/lib64/libmtkcam_proc.so
-vendor/lib64/mt6895/libmtkcam_request_requlator.so;SYMLINK=vendor/lib64/libmtkcam_request_requlator.so
+vendor/lib64/mt6895/libmtkcam_request_requlator.so;SYMLINK=vendor/lib64/libmtkcam_request_requlator.so;DISABLE_CHECKELF
 vendor/lib64/mt6895/libmtkcam_sensorcontrol.so;SYMLINK=vendor/lib64/libmtkcam_sensorcontrol.so
 vendor/lib64/mt6895/libmtkcam_simager.so;SYMLINK=vendor/lib64/libmtkcam_simager.so
 vendor/lib64/mt6895/libmtkcam_stdutils.so;SYMLINK=vendor/lib64/libmtkcam_stdutils.so
@@ -440,6 +436,43 @@ vendor/lib64/mt6895/aristotleov13b10_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/ari
 vendor/lib64/mt6895/aristotleov13b10_mipi_raw_tuning.so;SYMLINK=vendor/lib64/aristotleov13b10_mipi_raw_tuning.so
 vendor/lib64/mt6895/aristotleov50d_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/aristotleov50d_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/aristotleov50d_mipi_raw_tuning.so;SYMLINK=vendor/lib64/aristotleov50d_mipi_raw_tuning.so
+vendor/lib64/libladder.so
+vendor/lib64/libcamlog.so
+vendor/lib64/libmtkcam_metadata_ext.so
+vendor/lib64/libcamalgo.tsfs.so
+vendor/lib64/libion_ulit.so
+vendor/lib64/libmtkcam_3rdcalibration.so
+vendor/lib64/libmtkcam_fdWarpConvert.so
+vendor/lib64/libmialgo_ai_vision.so
+vendor/lib64/libarcsoft_super_night_detection.so
+vendor/lib64/libHISCppAlgos.so
+vendor/lib64/libhis_face_tracking.so
+vendor/lib64/libhis_motion_tracker.so
+vendor/lib64/libmorpho_video_stabilizer.so
+vendor/lib64/libmialgo_aio_seg.so
+vendor/lib64/libellv.so
+vendor/lib64/libmiphone_preview_bokeh_mono.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libmialgo_video_seg_depth.so
+vendor/lib64/libvideoBokeh.so
+vendor/lib64/libalgobaseutils.so
+vendor/lib64/libmiphone_preview_bokeh.so
+vendor/lib64/libmiphone_preview_mdbokeh.so
+vendor/lib64/libmiphone_preview_depth.so
+vendor/lib64/libwa_opticalzoomfactor.so
+vendor/lib64/libwa_sat.so
+vendor/lib64/libmtkcam_thirdparty.customzone.so
+vendor/lib64/librfs_warp.so
+vendor/lib64/libmtkcam_pip.so
+vendor/lib64/libteecli.so
+vendor/lib64/libcom.xiaomi.mizone.cpupolicy.so
+vendor/lib64/libcom.xiaomi.mizone.decoupleutil.so
+vendor/lib64/libcom.xiaomi.mizone.postprocinterface.so
+vendor/lib64/libcom.xiaomi.mizone.so
+vendor/lib64/libcom.xiaomi.grallocutils.so
+vendor/lib64/libcom.xiaomi.eventcallback.so
+vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
+vendor/lib64/hw/vendor.xiaomi.hardware.bgservice@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -451,8 +484,17 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
+# Camera / Bokeh
+vendor/lib64/libomp.so
+
+# Xiaomi Plugin Utils
+vendor/lib64/libcom.xiaomi.debug.so
+vendor/lib64/libcom.xiaomi.metadatautils.so
+
+vendor/lib64/libAF.so
+
 # Camera (Algo Engine)
-vendor/lib64/libmialgoengine.so
+vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF
 
 # Display
 vendor/etc/cust_color.xml
@@ -503,7 +545,6 @@ vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
 vendor/lib64/libhdrvideo.so
 vendor/lib64/libion_mtk.so
-vendor/lib64/libion_ulit.so
 vendor/lib64/libmml.so
 vendor/lib64/libpqframework.so
 vendor/lib64/libudf.so
@@ -800,7 +841,7 @@ system_ext/lib64/libimsma_socketwrapper.so
 system_ext/lib64/libmtk_vt_service.so
 system_ext/lib64/libmtk_vt_wrapper.so
 system_ext/lib64/libsignal.so
-system_ext/lib64/libsink.so:system_ext/lib64/libsink-mtk.so;FIX_SONAME
+system_ext/lib64/libsink.so:system_ext/lib64/libsink-mtk.so;FIX_SONAME;DISABLE_CHECKELF
 system_ext/lib64/libsource.so
 system_ext/lib64/libvcodec_cap.so
 system_ext/lib64/libvcodec_capenc.so
@@ -812,6 +853,9 @@ vendor/bin/hw/vtservice_hidl
 vendor/etc/init/init.vtservice_hidl.rc
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE_SUFFIX=_vendor
+
+# Public libraries
+vendor/etc/public.libraries.txt
 
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint@1.0-service.mitee
@@ -874,10 +918,10 @@ vendor/lib64/libmfido_mitee.so
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
-vendor/lib64/libwvhidl.so
+vendor/lib64/libwvhidl.so;DISABLE_CHECKELF
 
 # DRM
-vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/mediadrm/libwvdrmengine.so;DISABLE_CHECKELF
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvkeybox.so
 
@@ -1253,3 +1297,32 @@ vendor/etc/wifi/passpointProfile.conf
 vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_t_1.bin
 vendor/firmware/soc7_0_ram_wmmcu_1b_t_1_hdr.bin
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
+
+# Звук (Audio)
+vendor/lib64/libmisight.so
+
+# Сервер камеры (Camera HAL)
+vendor/lib64/libmtkcam_hal_aidl_provider.so
+
+# Плагины камеры Xiaomi (Bokeh, Depth, HDR)
+vendor/lib64/libmiphone_capture_bokeh.so
+vendor/lib64/libmiphone_capture_mdbokeh.so
+vendor/lib64/libmialgo_depth.so
+vendor/lib64/libmiphone_capture_depth.so
+vendor/lib64/libarcsoft_bokeh_high_dynamic_range.so
+
+# Camera HAL AIDL
+vendor/lib64/libmtkcam_hal_aidl_common.so
+vendor/lib64/libmtkcam_hal_aidl_device.so
+
+# Camera Plugins (HDR & DePurple)
+odm/lib64/libalCFR.so
+vendor/lib64/libarcsoft_high_dynamic_range.so
+vendor/lib64/libmtkcam_hal_aidl_utils.so
+
+vendor/lib64/libmiphone_capture_bokeh_mono.so
+vendor/lib64/libmialgo_ellc.so
+vendor/lib64/libportrait_repair_apu.so
+vendor/lib64/libarcsoft_super_night_raw_front.so
+vendor/lib64/libarcsoft_super_night_raw_wrap.so
+vendor/lib64/libmtkisp_metadata_v2.so
